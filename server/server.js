@@ -3,7 +3,8 @@ const app = express()
 const cors = require("cors")
 require("dotenv").config()
 const connectDB = require("./config/db")
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000//server 5000 port pe chal rha hai
+
 
 // middlewares
 app.use(express.json())
